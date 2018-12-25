@@ -2,13 +2,11 @@ import React, {Component} from "react";
 import Header from "./components/header.js";
 import ProfileCard from "./views/LandingPage/sections/ProfileCard.js";
 import AboutCard from "./views/LandingPage/sections/AboutCard.js";
+import InfoTabs from "./views/LandingPage/sections/InfoTabs.js";
 import {Button, withStyles, Grid, Paper} from "@material-ui/core";
 import Divider from "@material-ui/core/Divider";
-import PropTypes from "prop-types";
-import {createMuiTheme} from "@material-ui/core/styles";
-import purple from "@material-ui/core/colors/purple";
 
-const styles = {
+const styles = theme =>({
   root: {
     flexGrow: 1
   },
@@ -17,10 +15,10 @@ const styles = {
   },
   divider: {
     padding: "5px",
-    margin: "5px",
-    color: "purple"
+    margin: "15px",
+
   }
-};
+});
 
 class LandingPage extends Component {
   render() {
@@ -36,9 +34,14 @@ class LandingPage extends Component {
             <AboutCard />
           </Grid>
         </Grid>
-        <Grid container position="relative" spacing="16" justify="center">
-          <Grid item xs="5">
+        <Grid container justify="center">
+          <Grid item xs="4" lg="3">
             <Divider variant="middle" className={classes.divider} />
+          </Grid>
+        </Grid>
+        <Grid container justify="center">
+          <Grid item item xs="8" sm="5" lg="4">
+            <InfoTabs />
           </Grid>
         </Grid>
       </div>

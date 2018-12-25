@@ -23,7 +23,7 @@ function MediaCard(props) {
   return (
     <Card >
       <CardActionArea className={classes.card}>
-        <CardHeader title='About'/>
+        <CardHeader title="About" titleTypographyProps={{align:"center"}}/>
         <Divider variant="middle"/>
         <CardContent>
           <Typography component="p" align="center">
@@ -31,7 +31,7 @@ function MediaCard(props) {
             be a better developer, so this is my way of giving back. I write
             about technologies I use accross the stack. However, I work mostly
             with backend technologies, this blog itself is my first foray into
-            frontend development, and I'm very excited for the tirp.
+            frontend development, and I'm very excited for the trip.
             <br />
             If you have any quesions or concerns feel free to reach out to me
             with the form below.
