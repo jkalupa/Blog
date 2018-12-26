@@ -3,7 +3,7 @@ import Header from "./components/header.js";
 import ProfileCard from "./views/LandingPage/sections/ProfileCard.js";
 import AboutCard from "./views/LandingPage/sections/AboutCard.js";
 import InfoTabs from "./views/LandingPage/sections/InfoTabs.js";
-import {Button, withStyles, Grid, Paper} from "@material-ui/core";
+import {withStyles, Grid} from "@material-ui/core";
 import Divider from "@material-ui/core/Divider";
 
 const styles = theme =>({
@@ -40,7 +40,7 @@ class LandingPage extends Component {
           </Grid>
         </Grid>
         <Grid container justify="center">
-          <Grid item item xs="8" sm="5" lg="4">
+          <Grid item xs="8" sm="5" lg="4">
             <InfoTabs />
           </Grid>
         </Grid>

@@ -1,5 +1,4 @@
 import React from "react";
-import {withStyles} from "@material-ui/core/styles";
 import {Paper, Typography, ListItem, ListItemText, List, ListItemIcon} from "@material-ui/core";
 
 const fEntries = [

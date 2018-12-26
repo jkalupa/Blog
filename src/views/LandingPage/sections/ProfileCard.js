@@ -1,14 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 import {withStyles} from "@material-ui/core/styles";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardContent from "@material-ui/core/CardContent";
-import {Divider, Avatar, Grid, Card, CardMedia, Typography} from "@material-ui/core/";
+import {CardActionArea,  CardContent, Card, CardMedia, Typography} from "@material-ui/core/";
 
 const styles = {
   card: {
     MaxWidth: 400,
-    height: 350
+    minHeight: 375
   },
   media: {
     MaxWidth: 350,
