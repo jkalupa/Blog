@@ -20,7 +20,7 @@ const styles = theme =>({
   }
 });
 
-class LandingPage extends Component {
+class LoginPage extends Component {
   render() {
     const {classes} = this.props;
     return (
@@ -49,4 +49,4 @@ class LandingPage extends Component {
   }
 }
 
-export default withStyles(styles)(LandingPage);
+export default withStyles(styles)(LoginPage);

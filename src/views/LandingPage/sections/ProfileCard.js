@@ -17,21 +17,11 @@ const styles = {
 function MediaCard(props) {
   const {classes} = props;
   return (
-    <Card className={classes.card}>
-      <CardActionArea>
-      {/*<Grid container>
-          <Grid item xs="5" alignItems="center">
-            <Avatar
-              title="Profile Picture"
-              src="profile.jpg"
-              className={classes.media}
-            />
-          </Grid>
-        </Grid>
-        */}
+    <Card >
+      <CardActionArea className={classes.card}>
          <CardMedia
           className={classes.media}
-          image="profile.jpg"
+          image="img/profile.jpg"
           title="Profile Picture"
         />
 

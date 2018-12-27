@@ -4,12 +4,12 @@ import {Paper, Typography, ListItem, ListItemText, List, ListItemIcon} from "@ma
 const fEntries = [
   {
     name: "GitHub",
-    imgLnk: "github.svg",
+    imgLnk: "img/github.svg",
     RemoteLnk: "https://github.com/jkalupa"
   },
   {
     name: "Linkedin",
-    imgLnk: "linkedin.png",
+    imgLnk: "img/linkedin.png",
     RemoteLnk: "https://www.linkedin.com/in/john-kalupa-981888a6/"
   }
 ];
