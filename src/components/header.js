@@ -24,7 +24,7 @@ function Header(props) {
       <AppBar position="relative" color="primary">
         <Toolbar>
         <img
-          src="img/test-w.ico"
+          src="assets/img/test-w.ico"
           height="40"
           className={classes.icon}
           alt='icon'

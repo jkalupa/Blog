@@ -4,14 +4,20 @@ import {Paper, Typography, ListItem, ListItemText, List, ListItemIcon} from "@ma
 const fEntries = [
   {
     name: "GitHub",
-    imgLnk: "img/github.svg",
+    imgLnk: "assets/img/github.svg",
     RemoteLnk: "https://github.com/jkalupa"
   },
   {
     name: "Linkedin",
-    imgLnk: "img/linkedin.png",
+    imgLnk: "assets/img/linkedin.png",
     RemoteLnk: "https://www.linkedin.com/in/john-kalupa-981888a6/"
+  },
+  {
+    name: "Résumé",
+    imgLnk: "assets/img/resume_icon.svg",
+    RemoteLnk: "/assets/pdf/John Kalupa's Résumé.pdf"
   }
+
 ];
 
 function clickHandle(lnk) {

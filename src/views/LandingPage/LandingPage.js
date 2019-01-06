@@ -6,6 +6,8 @@ import InfoTabs from "views/LandingPage/sections/InfoTabs.js";
 import {withStyles, Grid} from "@material-ui/core";
 import Divider from "@material-ui/core/Divider";
 
+import "index.css";
+
 const styles = theme =>({
   root: {
     flexGrow: 1
