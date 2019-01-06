@@ -21,7 +21,7 @@ function MediaCard(props) {
           <Typography component="p" align="center">
             I've read countless homemade blogs and tutorials that have helped me
             be a better developer, so this is my way of giving back. I write
-            about technologies I use accross the stack. However, I work mostly
+            about technologies I use across the stack. However, I work mostly
             with backend technologies, this blog itself is my first foray into
             frontend development, and I'm very excited for the trip.
             <br />
