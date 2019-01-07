@@ -1,12 +1,11 @@
 import React, {Component} from "react";
-import Header from "components/header.js";
 import ProfileCard from "views/LandingPage/sections/ProfileCard.js";
 import AboutCard from "views/LandingPage/sections/AboutCard.js";
 import InfoTabs from "views/LandingPage/sections/InfoTabs.js";
 import {withStyles, Grid} from "@material-ui/core";
 import Divider from "@material-ui/core/Divider";
 
-import "index.css";
+
 
 const styles = theme =>({
   root: {
@@ -27,7 +26,6 @@ class LandingPage extends Component {
     const {classes} = this.props;
     return (
       <div className="App">
-        <Header/>
         <Grid container position="relative" spacing="16" justify="center">
           <Grid item xs="8" sm="5" lg="3">
             <ProfileCard />

@@ -10,11 +10,11 @@ const styles = {
   },
   media: {
     MaxWidth: 350,
-    height: 250
+    height: 300
   }
 };
 
-function MediaCard(props) {
+function ProfileCard(props) {
   const {classes} = props;
   return (
     <Card >
@@ -38,8 +38,8 @@ function MediaCard(props) {
   );
 }
 
-MediaCard.propTypes = {
+ProfileCard.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(MediaCard);
+export default withStyles(styles)(ProfileCard);

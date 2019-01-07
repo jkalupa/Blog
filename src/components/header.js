@@ -2,7 +2,7 @@ import React from "react";
 import {withStyles, MuiThemeProvider} from "@material-ui/core/styles";
 import {Button, Typography, Toolbar, AppBar} from "@material-ui/core";
 
-import theme from "./theme.js";
+import theme from "components/theme.js";
 
 const styles = {
   root: {
@@ -27,7 +27,7 @@ function Header(props) {
           src="assets/img/test-w.ico"
           height="40"
           className={classes.icon}
-          alt='icon'
+          alt='White JK Icon'
           onClick={iconClick}
         />
           <Typography variant="h6" color="inherit" className={classes.grow}>
@@ -45,14 +45,11 @@ function Header(props) {
 
 
 function loginClick(e) {
-  e.preventDefault();
-  document.write(
-    "<h3>Login page under construction thank you for your patience</h3>"
-  );
+      window.location.href = "/login";
 }
 
 function iconClick() {
-    window.location.href = 'http://kalupa.xyz';
+    window.location.href = '/';
   }
 
 export default withStyles(styles)(Header);
