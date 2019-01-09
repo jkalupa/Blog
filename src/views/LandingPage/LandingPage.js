@@ -26,21 +26,21 @@ class LandingPage extends Component {
     const {classes} = this.props;
     return (
       <div className="App">
-        <Grid container position="relative" spacing="16" justify="center">
-          <Grid item xs="8" sm="5" lg="3">
+        <Grid container position="relative" spacing={16} justify="center">
+          <Grid item xs={8} sm={5} lg={3}>
             <ProfileCard />
           </Grid>
-          <Grid item xs="8" sm="5" lg="3">
+          <Grid item xs={8} sm={5} lg={3}>
             <AboutCard />
           </Grid>
         </Grid>
         <Grid container justify="center">
-          <Grid item xs="4" lg="3">
+          <Grid item xs={4} lg={3}>
             <Divider variant="middle" className={classes.divider} />
           </Grid>
         </Grid>
         <Grid container justify="center">
-          <Grid item xs="8" sm="5" lg="4">
+          <Grid item xs={8} sm={5} lg={4}>
             <InfoTabs />
           </Grid>
         </Grid>

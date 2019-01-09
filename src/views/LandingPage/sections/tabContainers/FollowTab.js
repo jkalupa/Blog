@@ -32,8 +32,9 @@ function FollowTab(props) {
         button
         alignItems="center"
         onClick={clickHandle.bind(this, fEntries[i].RemoteLnk)}
+        key={i}
       >
-      <ListItemIcon>
+      <ListItemIcon >
         <img src={fEntries[i].imgLnk} alt={fEntries[i].name} height="60" />
       </ListItemIcon>
         <ListItemText>

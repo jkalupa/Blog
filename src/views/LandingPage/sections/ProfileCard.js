@@ -26,7 +26,7 @@ function ProfileCard(props) {
         />
 
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2" align="center">
+          <Typography variant="h5" component="h2" align="center">
             John Kalupa
           </Typography>
           <Typography component="p" align="center">

@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import {withStyles, MuiThemeProvider} from "@material-ui/core/styles";
 import {AppBar, Tabs, Tab, Typography, Paper} from "@material-ui/core";
 import FollowTab from "./tabContainers/FollowTab.js";
+import ContactTab from "./tabContainers/ContactTab.js";
 
 import theme from "components/theme.js";
 
@@ -50,7 +51,7 @@ class SimpleTabs extends React.Component {
             </Tabs>
           </AppBar>
           {value === 0 && <FollowTab />}
-          {value === 1 && <TabContainer>Web Form under construction. Feel free to react out to me at johnekalupa@gmail.com in the meantime.</TabContainer>}
+          {value === 1 && <ContactTab/>}
         </div>
       </MuiThemeProvider>
     );
