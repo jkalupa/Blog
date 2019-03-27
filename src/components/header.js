@@ -23,6 +23,7 @@ function Header(props) {
     <MuiThemeProvider theme={theme}>
       <AppBar position="relative" color="primary">
         <Toolbar>
+        <Button >  
         <img
           src="assets/img/test-w.ico"
           height="40"
@@ -30,6 +31,7 @@ function Header(props) {
           alt='White JK Icon'
           onClick={iconClick}
         />
+        </Button>
           <Typography variant="h6" color="inherit" className={classes.grow}>
             {props.title}
           </Typography>

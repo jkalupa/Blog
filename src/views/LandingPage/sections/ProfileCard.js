@@ -4,28 +4,30 @@ import {withStyles} from "@material-ui/core/styles";
 import {CardActionArea,  CardContent, Card, CardMedia, Typography} from "@material-ui/core/";
 
 const styles = {
+  
   card: {
-    MaxWidth: 400,
-    minHeight: 375
+    height: "100%"
+  },
+  actionArea:{
+    height: "100%"
   },
   media: {
-    MaxWidth: 350,
-    height: 300
+    height: 0,
+    paddingTop: '56.25%',
   }
 };
 
 function ProfileCard(props) {
   const {classes} = props;
   return (
-    <Card >
-      <CardActionArea className={classes.card}>
-         <CardMedia
-          className={classes.media}
+    <Card className={classes.card}>
+      <CardActionArea className={classes.actionArea}>
+         <CardMedia className={classes.media}
           image="assets/img/profile.jpg"
           title="Profile Picture"
         />
 
-        <CardContent>
+          <CardContent>
           <Typography variant="h5" component="h2" align="center">
             John Kalupa
           </Typography>

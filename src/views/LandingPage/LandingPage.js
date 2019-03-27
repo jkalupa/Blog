@@ -40,7 +40,7 @@ class LandingPage extends Component {
           </Grid>
         </Grid>
         <Grid container justify="center">
-          <Grid item xs={8} sm={5} lg={4}>
+          <Grid item xs={8} sm={5} lg={3}>
             <InfoTabs />
           </Grid>
         </Grid>

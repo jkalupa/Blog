@@ -17,7 +17,8 @@ const styles = {
     minHeight: 375
   },
   grid: {
-    marginTop: 50,
+   marginBottom: 50,
+   marginTop: 50,
   }
 };
 
@@ -43,7 +44,14 @@ class ContactTab extends Component {
     return (
       <Card className={classes.card}>
         <MuiThemeProvider theme={theme}>
-          <Grid container spacing={16} justify="center" direction= "column" alignItems="center" className={classes.grid}>
+          <Grid container spacing={16} direction= "column" alignItems="center" className={classes.grid}>
+          <Grid item >
+          <img
+          src="assets/img/test-b.ico"
+          height="60px"
+          alt='JK Icon'
+        />
+          </Grid>
             <Grid item >
               <TextField
               type="text"

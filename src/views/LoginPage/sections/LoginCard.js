@@ -17,6 +17,7 @@ const styles = {
     minHeight: 375
   },
   icon: {
+    marginTop: "25px",
     width: 100,
     height: 100,
   }
